@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Laboratorio interactivo para ejecutar, visualizar y comparar algoritmos paso a paso.">
+  <title>Algorithm Lab</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234f46e5'/%3E%3Cpath d='M8 22l6-12 4 8 3-5 3 9' stroke='white' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="app-header">
+    <a class="brand" href="#/home" aria-label="Algorithm Lab, inicio">
+      <span class="brand-mark" aria-hidden="true">◆</span>
+      <span>Algorithm Lab</span>
+    </a>
+    <nav id="lab-nav" class="lab-nav" aria-label="Laboratorios"></nav>
+    <button id="theme-toggle" class="btn small" type="button" aria-pressed="false">☾ Modo oscuro</button>
+  </header>
+  <div id="global-error" class="notice notice-error" role="alert" hidden></div>
+  <main id="main" tabindex="-1"></main>
+  <noscript>
+    <p class="notice notice-error">Esta aplicación necesita JavaScript.</p>
+  </noscript>
+  <footer class="app-footer">
+    <p>Algorithm Lab · Ejecución local, sin servidor backend. Los módulos ES requieren servirse por HTTP (ver README).</p>
+  </footer>
+  <script type="module" src="src/ui/app.js"></script>
+</body>
+</html>
