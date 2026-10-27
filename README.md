@@ -71,7 +71,7 @@ tests/                          Pruebas con node:test
 docs/                           architecture.md y events.md
 ```
 
-Los ficheros `README`, `prueba.php` y `libs/` ya existían en el repositorio y no se han modificado.
+El fichero `README` ya existía en el repositorio y no se ha modificado.
 
 ## 4. Uso
 
