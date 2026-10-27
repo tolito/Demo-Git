@@ -1,0 +1,15 @@
+{
+  "name": "algorithm-lab",
+  "version": "1.0.0",
+  "description": "Laboratorio interactivo de algoritmos: búsqueda de caminos, backtracking, CSP, teoría de juegos y algoritmos genéticos.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
